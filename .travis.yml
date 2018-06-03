@@ -1,6 +1,10 @@
 language: python
 python:
 - '3.4'
+branches:
+  except:
+  - master
+  - ci
 env:
   matrix:
     - FORMAT=hst TF=M1
